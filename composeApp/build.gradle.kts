@@ -36,6 +36,9 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
+            // Koin
+            implementation(libs.koin.android)
+            implementation(libs.koin.androidx.compose)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -49,11 +52,8 @@ kotlin {
             // Ktor
             implementation(libs.ktor.client.core.jvm)
             // Koin
-            implementation(libs.koin.android)
             implementation(libs.koin.compose)
             implementation(libs.koin.compose.viewmodel)
-            implementation(libs.koin.androidx.compose)
-            implementation(libs.koin.core)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
