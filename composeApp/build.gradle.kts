@@ -54,6 +54,9 @@ kotlin {
             // Koin
             implementation(libs.koin.compose)
             implementation(libs.koin.compose.viewmodel)
+            // Coil
+            implementation(libs.coil.compose)
+            implementation(libs.coil.network.okhttp)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
