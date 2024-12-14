@@ -6,4 +6,5 @@
     <string name="favorites">Favorites</string>
     <string name="no_search_results">Oops, there aren't any books</string>
     <string name="no_favorite_books">You haven't saved any favorites book yet</string>
+    <string name="error_unknown">Oops! Something went wrong</string>
 </resources>
